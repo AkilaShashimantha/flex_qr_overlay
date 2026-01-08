@@ -1,6 +1,6 @@
 name: flex_qr_overlay
 description: A customizable QR scanner overlay with a moving scan line animation and clean architecture.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/AkilaShashimantha/flex_qr_overlay.git
 
 environment:

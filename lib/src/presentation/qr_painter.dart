@@ -47,7 +47,7 @@ class QrOverlayPainter extends CustomPainter {
     );
     // Draw the Moving Scan Line
     final linePaint = Paint()
-      ..color = config.borderColor.withOpacity(0.8)
+      ..color = config.borderColor.withAlpha((255 * 0.8).toInt())
       ..strokeWidth = 2.0
       ..style = PaintingStyle.stroke;
 
