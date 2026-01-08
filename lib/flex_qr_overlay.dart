@@ -1,4 +1,13 @@
+library flex_qr_overlay;
+
 import 'package:flutter/material.dart';
+
+// 1. Export the config so the test app can see it
+export 'src/domain/entities/overlay_config.dart'; 
+
+// 2. Export your widget
+export 'src/presentation/qr_painter.dart';
+
 import 'src/domain/entities/overlay_config.dart';
 import 'src/presentation/qr_painter.dart';
 
